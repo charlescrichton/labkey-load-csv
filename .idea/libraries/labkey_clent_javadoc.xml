@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="labkey-clent-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/doc" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

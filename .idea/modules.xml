@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/labkey-download-csv/labkey-download-csv.iml" filepath="$PROJECT_DIR$/labkey-download-csv/labkey-download-csv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labkey-load-csv.iml" filepath="$PROJECT_DIR$/labkey-load-csv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labkey-upload-csv/labkey-upload-csv.iml" filepath="$PROJECT_DIR$/labkey-upload-csv/labkey-upload-csv.iml" />
+    </modules>
+  </component>
+</project>
+

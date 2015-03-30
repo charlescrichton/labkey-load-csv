@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="labkey-client-api-14.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/labkey-client-api-14.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

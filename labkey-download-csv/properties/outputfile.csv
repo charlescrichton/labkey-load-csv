@@ -1,0 +1,2 @@
+UserId(INT),DisplayName(STRING),Email(STRING),Active(BOOLEAN),LastLogin(DATE),Created(DATE),FirstName(STRING),LastName(STRING),Phone(STRING),Mobile(STRING),Pager(STRING),IM(STRING),Description(STRING),Groups(INT)
+1003,my user,my.user@example.com,true,Mon Feb 23 15:38:22 GMT 2015,Sat Feb 21 21:07:25 GMT 2015,,,,,,,,[1003]

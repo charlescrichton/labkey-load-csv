@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="labkey-upload-csv:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/labkey_upload_csv_jar</output-path>
+    <root id="archive" name="labkey-upload-csv.jar">
+      <element id="module-output" name="labkey-upload-csv" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/labkey-client-api-14.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/commons-cli-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-codec-1.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-httpclient-3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-logging-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-logging.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/json_simple-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/log4j-1.2.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/opencsv-2.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

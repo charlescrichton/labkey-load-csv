@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="labkey-client-supporting-jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-codec-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-httpclient-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-logging-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/json_simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/log4j-1.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LabKey14.3-36031.29-ClientAPI-Java/lib/opencsv-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
