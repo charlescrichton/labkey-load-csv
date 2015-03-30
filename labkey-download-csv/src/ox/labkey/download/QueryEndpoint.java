@@ -75,6 +75,39 @@ public class QueryEndpoint extends ErrorReporting {
         return header + "\n" + body;
     }
 
+    /**
+     * Return the CSV file or null if there was a problem.
+     *
+     * @return
+     */
+    public Integer getNoCSVRows() {
+
+        //Define command
+        SelectRowsCommand command = new SelectRowsCommand(schemaName, queryName);
+
+        SelectRowsResponse response;
+        try {
+            response = command.execute(connection, folderPath);
+        } catch (CommandException e) {
+            addThrowable("Problem executing command", e);
+            exitCode = -2;
+            return null;
+        } catch (IOException e) {
+            addThrowable("Problem executing command", e);
+            exitCode = -3;
+            return null;
+        }
+
+        logger.info("response.getStatusCode() = " + response.getStatusCode());
+        List<Map<String, Object>> row = response.getRows();
+        if(row==null){
+            return null;
+        }
+        else {
+            return row.size();
+        }
+
+    }
 
     private String calculateCSVHeader(SelectRowsResponse response, List<String> columnNames) {
         String headers = "";
@@ -98,7 +131,7 @@ public class QueryEndpoint extends ErrorReporting {
         //output the column names
         for (Map<String, Object> column : columnModel) {
             String columnName = (String) column.get("dataIndex");
-            if (excludeFolder && !"Folder".equals(columnName)) {
+            if (excludeFolder || !"Folder".equals(columnName)) {
                 columnNames.add(columnName);
             }
         }
@@ -152,4 +185,5 @@ public class QueryEndpoint extends ErrorReporting {
         }
         return output;
     }
+
 }
